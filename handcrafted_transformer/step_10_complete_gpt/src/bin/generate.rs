@@ -9,7 +9,7 @@ use burn::{
     prelude::*,
     record::{CompactRecorder, Recorder},
 };
-use handcrafted_transformer::{
+use step_10_complete_gpt::{
     generation::{generate, DecodeStrategy},
     tokenizer::Tokenizer,
     training::TrainingConfig,

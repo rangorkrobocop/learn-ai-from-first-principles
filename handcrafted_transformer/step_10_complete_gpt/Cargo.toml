@@ -1,0 +1,25 @@
+[package]
+name = "step_10_complete_gpt"
+version = "0.1.0"
+edition = "2021"
+description = "Step 10: Training & Storytime (The Complete GPT Model)"
+
+[[bin]]
+name = "train"
+path = "src/bin/train.rs"
+
+[[bin]]
+name = "generate"
+path = "src/bin/generate.rs"
+
+[dependencies]
+burn = { version = "0.21", features = ["train", "ndarray", "autodiff"] }
+serde      = { version = "1", features = ["derive"] }
+serde_json = "1"
+rand = "0.10"
+
+[profile.dev]
+opt-level = 1
+
+[profile.release]
+opt-level = 3

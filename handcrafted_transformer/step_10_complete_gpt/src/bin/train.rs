@@ -13,7 +13,7 @@ type AutodiffBackend = Autodiff<Backend>;
 fn main() {
     let device = burn::backend::ndarray::NdArrayDevice::Cpu;
 
-    handcrafted_transformer::training::run_training::<AutodiffBackend>(
+    step_10_complete_gpt::training::run_training::<AutodiffBackend>(
         device,
         "data/corpus.txt",
         "artifacts",

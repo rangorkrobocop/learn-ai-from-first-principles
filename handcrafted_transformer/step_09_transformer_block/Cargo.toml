@@ -1,0 +1,8 @@
+[package]
+name = "step_09_transformer_block"
+version = "0.1.0"
+edition = "2021"
+description = "Step 9: The Factory Assembly Line (The Transformer Block)"
+
+[dependencies]
+burn = { version = "0.21", features = ["ndarray"] }

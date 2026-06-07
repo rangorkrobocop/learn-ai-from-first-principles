@@ -1,0 +1,45 @@
+the transformer is a model architecture that relies entirely on attention mechanisms
+attention is all you need to understand sequences
+the key query and value matrices project tokens into different subspaces
+multi head attention allows the model to attend to different positions simultaneously
+each head learns a different kind of relationship between tokens
+the feed forward network applies two linear transformations with a nonlinearity in between
+layer normalization stabilizes training by normalizing the hidden states
+residual connections allow gradients to flow through the network more easily
+the encoder reads the full input sequence and builds rich representations
+the decoder generates tokens one at a time using masked self attention
+positional encodings inject information about token order into the model
+since attention has no inherent notion of sequence order we must add position
+sinusoidal encodings use sine and cosine functions at different frequencies
+the model learns to use these positional signals during training
+the softmax function converts raw scores into probability distributions over vocabulary
+temperature controls how sharp or flat the output distribution is
+greedy decoding always picks the most likely next token
+sampling introduces randomness and can produce more creative text
+top k sampling restricts choices to the k most probable tokens
+beam search keeps multiple candidate sequences and picks the best overall
+the embedding layer maps integer token ids into dense vectors
+these vectors live in a high dimensional space where similar words cluster together
+training minimizes cross entropy loss between predictions and targets
+the optimizer updates weights in the direction that reduces the loss
+learning rate controls how large each parameter update is
+too high a learning rate causes instability too low causes slow convergence
+weight decay regularizes the model by penalizing large parameter values
+dropout randomly zeroes out activations during training to prevent overfitting
+the transformer architecture has largely replaced recurrent models
+recurrent networks process sequences step by step which limits parallelism
+attention can connect any two positions in constant time regardless of distance
+this makes transformers especially good at capturing long range dependencies
+scaling up transformers in depth and width generally improves performance
+modern language models stack dozens of transformer layers
+the context window determines how many tokens the model can see at once
+longer contexts require quadratic memory in standard attention
+efficient attention variants reduce this cost to linear
+pretraining on large corpora gives the model general language understanding
+fine tuning adapts the pretrained model to specific downstream tasks
+the vocabulary is the set of all possible tokens the model knows
+tokenization splits raw text into subword units that form the vocabulary
+the handcrafted transformer you are building learns all of this from scratch
+every weight matrix in this model starts random and improves through gradient descent
+watch the loss decrease as the model begins to understand patterns in text
+this is how all language models learn to predict the next token

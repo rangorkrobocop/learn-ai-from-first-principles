@@ -1,0 +1,8 @@
+[package]
+name = "step_07_multi_head_attention"
+version = "0.1.0"
+edition = "2021"
+description = "Step 7: A Team of Detectives (Multi-Head Attention)"
+
+[dependencies]
+burn = { version = "0.21", features = ["ndarray"] }

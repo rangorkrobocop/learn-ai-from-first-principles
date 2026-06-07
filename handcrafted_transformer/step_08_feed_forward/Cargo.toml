@@ -1,0 +1,8 @@
+[package]
+name = "step_08_feed_forward"
+version = "0.1.0"
+edition = "2021"
+description = "Step 8: The Brain's Decision Filter (Feed-Forward & GELU)"
+
+[dependencies]
+burn = { version = "0.21", features = ["ndarray"] }

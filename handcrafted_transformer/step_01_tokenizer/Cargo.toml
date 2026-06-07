@@ -1,0 +1,8 @@
+[package]
+name = "step_01_tokenizer"
+version = "0.1.0"
+edition = "2021"
+description = "Step 1: The Secret Decoder Ring (The Tokenizer)"
+
+[dependencies]
+# No external dependencies needed!

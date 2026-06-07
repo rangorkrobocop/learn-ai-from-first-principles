@@ -1,0 +1,8 @@
+[package]
+name = "step_02_dataset"
+version = "0.1.0"
+edition = "2021"
+description = "Step 2: Training Flashcards (The Dataset)"
+
+[dependencies]
+# No external dependencies needed!
