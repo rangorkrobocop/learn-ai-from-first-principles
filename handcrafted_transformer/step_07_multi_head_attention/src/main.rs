@@ -24,7 +24,7 @@ use burn::nn::{
 use burn::prelude::*;
 use burn::tensor::activation::softmax;
 
-type Backend = NdArray<f32>;
+type MyBackend = NdArray<f32>;
 
 // ── Multi-Head Self-Attention (Adapted from our main project model.rs) ───────
 #[derive(Module, Debug)]
@@ -136,7 +136,7 @@ fn main() {
     println!();
 
     // Initialize our multi-head attention block
-    let attention_layer = MultiHeadSelfAttention::<Backend>::new(d_model, n_heads, 0.0, &device);
+    let attention_layer = MultiHeadSelfAttention::<MyBackend>::new(d_model, n_heads, 0.0, &device);
 
     // Create a mock input sequence of 3 words (shape [1 batch, 3 words, 4 coordinates])
     let mock_input_data = vec![
@@ -144,11 +144,11 @@ fn main() {
         -0.5f32, 1.2f32, 0.3f32, -0.4f32, // Word 2
         0.2f32, -0.1f32, 1.0f32, 0.5f32,  // Word 3
     ];
-    let input = Tensor::<Backend, 3>::from_data(
+    let input = Tensor::<MyBackend, 3>::from_data(
         TensorData::new(mock_input_data, [1, seq_len, d_model]),
         &device
     );
-    let mask = causal_mask::<Backend>(seq_len, &device);
+    let mask = causal_mask::<MyBackend>(seq_len, &device);
 
     println!("🏃‍♂️ Step 7.1: Running Multi-Head Attention forward pass...");
     println!("   📥 Input tensor shape: {:?}", input.dims());

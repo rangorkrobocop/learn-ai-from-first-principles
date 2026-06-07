@@ -28,13 +28,13 @@ type Backend = NdArray<f32>;
 
 // ── Feed-Forward Network (Adapted from our main project model.rs) ───────────
 #[derive(Module, Debug)]
-pub struct FeedForward<B: Backend> {
+pub struct FeedForward<B: burn::tensor::backend::Backend> {
     linear1: Linear<B>,
     linear2: Linear<B>,
     dropout: Dropout,
 }
 
-impl<B: Backend> FeedForward<B> {
+impl<B: burn::tensor::backend::Backend> FeedForward<B> {
     pub fn new(d_model: usize, d_ff: usize, dropout: f64, device: &B::Device) -> Self {
         FeedForward {
             linear1: LinearConfig::new(d_model, d_ff).init(device),

@@ -1,0 +1,10 @@
+/Users/rboorgapally/code/learn-ai-from-first-principles/handcrafted_transformer/step_10_complete_gpt/target/release/deps/ravif-373cc7c7fcfad170.d: /Users/rboorgapally/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ravif-0.13.0/src/lib.rs /Users/rboorgapally/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ravif-0.13.0/src/av1encoder.rs /Users/rboorgapally/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ravif-0.13.0/src/error.rs /Users/rboorgapally/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ravif-0.13.0/src/dirtyalpha.rs
+
+/Users/rboorgapally/code/learn-ai-from-first-principles/handcrafted_transformer/step_10_complete_gpt/target/release/deps/libravif-373cc7c7fcfad170.rlib: /Users/rboorgapally/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ravif-0.13.0/src/lib.rs /Users/rboorgapally/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ravif-0.13.0/src/av1encoder.rs /Users/rboorgapally/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ravif-0.13.0/src/error.rs /Users/rboorgapally/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ravif-0.13.0/src/dirtyalpha.rs
+
+/Users/rboorgapally/code/learn-ai-from-first-principles/handcrafted_transformer/step_10_complete_gpt/target/release/deps/libravif-373cc7c7fcfad170.rmeta: /Users/rboorgapally/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ravif-0.13.0/src/lib.rs /Users/rboorgapally/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ravif-0.13.0/src/av1encoder.rs /Users/rboorgapally/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ravif-0.13.0/src/error.rs /Users/rboorgapally/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ravif-0.13.0/src/dirtyalpha.rs
+
+/Users/rboorgapally/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ravif-0.13.0/src/lib.rs:
+/Users/rboorgapally/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ravif-0.13.0/src/av1encoder.rs:
+/Users/rboorgapally/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ravif-0.13.0/src/error.rs:
+/Users/rboorgapally/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ravif-0.13.0/src/dirtyalpha.rs:

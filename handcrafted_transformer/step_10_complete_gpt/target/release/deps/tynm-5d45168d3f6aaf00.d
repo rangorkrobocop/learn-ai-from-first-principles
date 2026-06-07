@@ -1,0 +1,10 @@
+/Users/rboorgapally/code/learn-ai-from-first-principles/handcrafted_transformer/step_10_complete_gpt/target/release/deps/tynm-5d45168d3f6aaf00.d: /Users/rboorgapally/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tynm-0.2.0/src/lib.rs /Users/rboorgapally/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tynm-0.2.0/src/parser.rs /Users/rboorgapally/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tynm-0.2.0/src/type_params_fmt_opts.rs /Users/rboorgapally/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tynm-0.2.0/src/types.rs
+
+/Users/rboorgapally/code/learn-ai-from-first-principles/handcrafted_transformer/step_10_complete_gpt/target/release/deps/libtynm-5d45168d3f6aaf00.rlib: /Users/rboorgapally/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tynm-0.2.0/src/lib.rs /Users/rboorgapally/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tynm-0.2.0/src/parser.rs /Users/rboorgapally/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tynm-0.2.0/src/type_params_fmt_opts.rs /Users/rboorgapally/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tynm-0.2.0/src/types.rs
+
+/Users/rboorgapally/code/learn-ai-from-first-principles/handcrafted_transformer/step_10_complete_gpt/target/release/deps/libtynm-5d45168d3f6aaf00.rmeta: /Users/rboorgapally/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tynm-0.2.0/src/lib.rs /Users/rboorgapally/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tynm-0.2.0/src/parser.rs /Users/rboorgapally/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tynm-0.2.0/src/type_params_fmt_opts.rs /Users/rboorgapally/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tynm-0.2.0/src/types.rs
+
+/Users/rboorgapally/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tynm-0.2.0/src/lib.rs:
+/Users/rboorgapally/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tynm-0.2.0/src/parser.rs:
+/Users/rboorgapally/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tynm-0.2.0/src/type_params_fmt_opts.rs:
+/Users/rboorgapally/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/tynm-0.2.0/src/types.rs:

@@ -27,7 +27,7 @@ type Backend = NdArray<f32>;
 
 /// Create an additive causal mask of shape [seq_len, seq_len].
 /// It contains 0.0 on and below the diagonal, and -1e9 (negative infinity) above it.
-fn causal_mask<B: Backend>(seq_len: usize, device: &B::Device) -> Tensor<B, 2> {
+fn causal_mask<B: burn::tensor::backend::Backend>(seq_len: usize, device: &B::Device) -> Tensor<B, 2> {
     let mut data = vec![0f32; seq_len * seq_len];
     for row in 0..seq_len {
         for col in 0..seq_len {

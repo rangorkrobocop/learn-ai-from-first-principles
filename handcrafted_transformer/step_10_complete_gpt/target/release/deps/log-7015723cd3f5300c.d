@@ -1,0 +1,10 @@
+/Users/rboorgapally/code/learn-ai-from-first-principles/handcrafted_transformer/step_10_complete_gpt/target/release/deps/log-7015723cd3f5300c.d: /Users/rboorgapally/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/log-0.4.32/src/lib.rs /Users/rboorgapally/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/log-0.4.32/src/macros.rs /Users/rboorgapally/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/log-0.4.32/src/serde.rs /Users/rboorgapally/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/log-0.4.32/src/__private_api.rs
+
+/Users/rboorgapally/code/learn-ai-from-first-principles/handcrafted_transformer/step_10_complete_gpt/target/release/deps/liblog-7015723cd3f5300c.rlib: /Users/rboorgapally/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/log-0.4.32/src/lib.rs /Users/rboorgapally/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/log-0.4.32/src/macros.rs /Users/rboorgapally/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/log-0.4.32/src/serde.rs /Users/rboorgapally/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/log-0.4.32/src/__private_api.rs
+
+/Users/rboorgapally/code/learn-ai-from-first-principles/handcrafted_transformer/step_10_complete_gpt/target/release/deps/liblog-7015723cd3f5300c.rmeta: /Users/rboorgapally/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/log-0.4.32/src/lib.rs /Users/rboorgapally/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/log-0.4.32/src/macros.rs /Users/rboorgapally/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/log-0.4.32/src/serde.rs /Users/rboorgapally/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/log-0.4.32/src/__private_api.rs
+
+/Users/rboorgapally/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/log-0.4.32/src/lib.rs:
+/Users/rboorgapally/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/log-0.4.32/src/macros.rs:
+/Users/rboorgapally/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/log-0.4.32/src/serde.rs:
+/Users/rboorgapally/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/log-0.4.32/src/__private_api.rs:

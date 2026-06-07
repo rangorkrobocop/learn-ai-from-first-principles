@@ -1,0 +1,9 @@
+/Users/rboorgapally/code/learn-ai-from-first-principles/handcrafted_transformer/step_10_complete_gpt/target/release/deps/pastey-9ab76c00b909d23c.d: /Users/rboorgapally/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/pastey-0.1.1/src/lib.rs /Users/rboorgapally/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/pastey-0.1.1/src/attr.rs /Users/rboorgapally/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/pastey-0.1.1/src/error.rs /Users/rboorgapally/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/pastey-0.1.1/src/segment.rs /Users/rboorgapally/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/pastey-0.1.1/src/../README.md
+
+/Users/rboorgapally/code/learn-ai-from-first-principles/handcrafted_transformer/step_10_complete_gpt/target/release/deps/libpastey-9ab76c00b909d23c.dylib: /Users/rboorgapally/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/pastey-0.1.1/src/lib.rs /Users/rboorgapally/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/pastey-0.1.1/src/attr.rs /Users/rboorgapally/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/pastey-0.1.1/src/error.rs /Users/rboorgapally/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/pastey-0.1.1/src/segment.rs /Users/rboorgapally/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/pastey-0.1.1/src/../README.md
+
+/Users/rboorgapally/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/pastey-0.1.1/src/lib.rs:
+/Users/rboorgapally/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/pastey-0.1.1/src/attr.rs:
+/Users/rboorgapally/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/pastey-0.1.1/src/error.rs:
+/Users/rboorgapally/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/pastey-0.1.1/src/segment.rs:
+/Users/rboorgapally/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/pastey-0.1.1/src/../README.md:

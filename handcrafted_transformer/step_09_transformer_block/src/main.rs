@@ -32,7 +32,7 @@ type Backend = NdArray<f32>;
 
 // ── Multi-Head Self-Attention ────────────────────────────────────────────────
 #[derive(Module, Debug)]
-pub struct MultiHeadSelfAttention<B: Backend> {
+pub struct MultiHeadSelfAttention<B: burn::tensor::backend::Backend> {
     w_q: Linear<B>,
     w_k: Linear<B>,
     w_v: Linear<B>,
@@ -42,7 +42,7 @@ pub struct MultiHeadSelfAttention<B: Backend> {
     d_model: usize,
 }
 
-impl<B: Backend> MultiHeadSelfAttention<B> {
+impl<B: burn::tensor::backend::Backend> MultiHeadSelfAttention<B> {
     pub fn new(d_model: usize, n_heads: usize, dropout: f64, device: &B::Device) -> Self {
         let linear = |d_in, d_out| LinearConfig::new(d_in, d_out).with_bias(false).init(device);
         MultiHeadSelfAttention {
@@ -89,13 +89,13 @@ impl<B: Backend> MultiHeadSelfAttention<B> {
 
 // ── Feed-Forward Network ─────────────────────────────────────────────────────
 #[derive(Module, Debug)]
-pub struct FeedForward<B: Backend> {
+pub struct FeedForward<B: burn::tensor::backend::Backend> {
     linear1: Linear<B>,
     linear2: Linear<B>,
     dropout: Dropout,
 }
 
-impl<B: Backend> FeedForward<B> {
+impl<B: burn::tensor::backend::Backend> FeedForward<B> {
     pub fn new(d_model: usize, d_ff: usize, dropout: f64, device: &B::Device) -> Self {
         FeedForward {
             linear1: LinearConfig::new(d_model, d_ff).init(device),
@@ -114,14 +114,14 @@ impl<B: Backend> FeedForward<B> {
 
 // ── Transformer Block (Pre-LN variant) ───────────────────────────────────────
 #[derive(Module, Debug)]
-pub struct TransformerBlock<B: Backend> {
+pub struct TransformerBlock<B: burn::tensor::backend::Backend> {
     norm1: LayerNorm<B>,
     attn: MultiHeadSelfAttention<B>,
     norm2: LayerNorm<B>,
     ffn: FeedForward<B>,
 }
 
-impl<B: Backend> TransformerBlock<B> {
+impl<B: burn::tensor::backend::Backend> TransformerBlock<B> {
     pub fn new(
         d_model: usize,
         n_heads: usize,
@@ -150,7 +150,7 @@ impl<B: Backend> TransformerBlock<B> {
     }
 }
 
-fn causal_mask<B: Backend>(seq_len: usize, device: &B::Device) -> Tensor<B, 2> {
+fn causal_mask<B: burn::tensor::backend::Backend>(seq_len: usize, device: &B::Device) -> Tensor<B, 2> {
     let mut data = vec![0f32; seq_len * seq_len];
     for row in 0..seq_len {
         for col in 0..seq_len {

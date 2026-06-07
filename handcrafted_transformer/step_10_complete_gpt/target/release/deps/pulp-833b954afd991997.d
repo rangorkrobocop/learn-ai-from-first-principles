@@ -1,0 +1,10 @@
+/Users/rboorgapally/code/learn-ai-from-first-principles/handcrafted_transformer/step_10_complete_gpt/target/release/deps/pulp-833b954afd991997.d: /Users/rboorgapally/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/pulp-0.22.2/src/lib.rs /Users/rboorgapally/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/pulp-0.22.2/src/core_arch/mod.rs /Users/rboorgapally/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/pulp-0.22.2/src/core_arch/aarch64/mod.rs /Users/rboorgapally/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/pulp-0.22.2/src/aarch64.rs
+
+/Users/rboorgapally/code/learn-ai-from-first-principles/handcrafted_transformer/step_10_complete_gpt/target/release/deps/libpulp-833b954afd991997.rlib: /Users/rboorgapally/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/pulp-0.22.2/src/lib.rs /Users/rboorgapally/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/pulp-0.22.2/src/core_arch/mod.rs /Users/rboorgapally/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/pulp-0.22.2/src/core_arch/aarch64/mod.rs /Users/rboorgapally/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/pulp-0.22.2/src/aarch64.rs
+
+/Users/rboorgapally/code/learn-ai-from-first-principles/handcrafted_transformer/step_10_complete_gpt/target/release/deps/libpulp-833b954afd991997.rmeta: /Users/rboorgapally/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/pulp-0.22.2/src/lib.rs /Users/rboorgapally/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/pulp-0.22.2/src/core_arch/mod.rs /Users/rboorgapally/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/pulp-0.22.2/src/core_arch/aarch64/mod.rs /Users/rboorgapally/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/pulp-0.22.2/src/aarch64.rs
+
+/Users/rboorgapally/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/pulp-0.22.2/src/lib.rs:
+/Users/rboorgapally/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/pulp-0.22.2/src/core_arch/mod.rs:
+/Users/rboorgapally/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/pulp-0.22.2/src/core_arch/aarch64/mod.rs:
+/Users/rboorgapally/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/pulp-0.22.2/src/aarch64.rs:

@@ -1,0 +1,25 @@
+{
+  "model": {
+    "vocab_size": 293,
+    "d_model": 128,
+    "n_heads": 4,
+    "n_layers": 2,
+    "d_ff": 256,
+    "max_seq_len": 128,
+    "dropout": 0.1
+  },
+  "optimizer": {
+    "weight_decay": null,
+    "grad_clipping": null,
+    "beta_1": 0.9,
+    "beta_2": 0.999,
+    "epsilon": 0.00001,
+    "amsgrad": false
+  },
+  "num_epochs": 30,
+  "batch_size": 8,
+  "seed": 42,
+  "val_split": 0.1,
+  "seq_len": 32,
+  "learning_rate": 0.001
+}

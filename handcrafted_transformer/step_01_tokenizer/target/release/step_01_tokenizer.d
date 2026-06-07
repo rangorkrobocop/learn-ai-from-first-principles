@@ -1,0 +1,1 @@
+/Users/rboorgapally/code/learn-ai-from-first-principles/handcrafted_transformer/step_01_tokenizer/target/release/step_01_tokenizer: /Users/rboorgapally/code/learn-ai-from-first-principles/handcrafted_transformer/step_01_tokenizer/src/main.rs
