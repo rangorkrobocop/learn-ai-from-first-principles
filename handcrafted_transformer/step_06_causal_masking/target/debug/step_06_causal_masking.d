@@ -1,1 +1,0 @@
-/Users/rboorgapally/code/learn-ai-from-first-principles/handcrafted_transformer/step_06_causal_masking/target/debug/step_06_causal_masking: /Users/rboorgapally/code/learn-ai-from-first-principles/handcrafted_transformer/step_06_causal_masking/src/main.rs

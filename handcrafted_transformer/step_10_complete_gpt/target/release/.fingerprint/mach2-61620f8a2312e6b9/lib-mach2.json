@@ -1,1 +1,0 @@
-{"rustc":17467972547956852243,"features":"[\"default\"]","declared_features":"[\"default\", \"unstable\"]","target":5009168100929641192,"profile":2040997289075261528,"path":11002773568900851093,"deps":[],"local":[{"CheckDepInfo":{"dep_info":"release/.fingerprint/mach2-61620f8a2312e6b9/dep-lib-mach2","checksum":false}}],"rustflags":[],"config":8247474407144887393,"compile_kind":0}

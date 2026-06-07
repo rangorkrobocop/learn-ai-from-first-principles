@@ -1,1 +1,0 @@
-/Users/rboorgapally/code/learn-ai-from-first-principles/handcrafted_transformer/step_05_attention/target/release/step_05_attention: /Users/rboorgapally/code/learn-ai-from-first-principles/handcrafted_transformer/step_05_attention/src/main.rs

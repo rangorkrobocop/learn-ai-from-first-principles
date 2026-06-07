@@ -1,1 +1,0 @@
-/Users/rboorgapally/code/learn-ai-from-first-principles/handcrafted_transformer/step_08_feed_forward/target/debug/step_08_feed_forward: /Users/rboorgapally/code/learn-ai-from-first-principles/handcrafted_transformer/step_08_feed_forward/src/main.rs
