@@ -1,0 +1,51 @@
+# handcrafted_autograd — task runner
+#
+# Each step_NN_* directory is a standalone crate (not a cargo workspace),
+# so recipes drive each one via its own --manifest-path.
+# Run `just` with no args to list everything.
+
+set shell := ["bash", "-uc"]
+
+# List available recipes
+default:
+    @just --list
+
+# Run a numbered step demo, e.g. `just run 05` or `just run 5`
+run STEP:
+    #!/usr/bin/env bash
+    set -euo pipefail
+    n=$(printf '%02d' "{{STEP}}")
+    dir=$(ls -d step_${n}_*/ 2>/dev/null | head -1)
+    [ -n "$dir" ] || { echo "no step matching '{{STEP}}' (try 01..10)"; exit 1; }
+    echo ">> running ${dir%/}"
+    cargo run --manifest-path "${dir}Cargo.toml"
+
+# Compile every step crate without running
+build:
+    #!/usr/bin/env bash
+    set -euo pipefail
+    for d in step_*/; do echo ">> build ${d%/}"; cargo build --manifest-path "${d}Cargo.toml"; done
+
+# Fast type-check every step crate
+check:
+    #!/usr/bin/env bash
+    set -euo pipefail
+    for d in step_*/; do echo ">> check ${d%/}"; cargo check --manifest-path "${d}Cargo.toml"; done
+
+# Format every step crate
+fmt:
+    #!/usr/bin/env bash
+    set -euo pipefail
+    for d in step_*/; do cargo fmt --manifest-path "${d}Cargo.toml"; done
+
+# Lint every step crate with clippy
+clippy:
+    #!/usr/bin/env bash
+    set -euo pipefail
+    for d in step_*/; do echo ">> clippy ${d%/}"; cargo clippy --manifest-path "${d}Cargo.toml" -- -D warnings; done
+
+# Remove all build artifacts (every target/ dir)
+clean:
+    #!/usr/bin/env bash
+    set -euo pipefail
+    for d in step_*/; do cargo clean --manifest-path "${d}Cargo.toml"; done

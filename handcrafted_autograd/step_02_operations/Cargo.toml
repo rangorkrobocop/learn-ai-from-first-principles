@@ -1,0 +1,8 @@
+[package]
+name = "step_02_operations"
+version = "0.1.0"
+edition = "2021"
+description = "Step 2: Remembering Your Parents (Operations & the Graph)"
+
+[profile.release]
+opt-level = 3

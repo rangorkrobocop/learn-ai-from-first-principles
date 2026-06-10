@@ -1,0 +1,11 @@
+[package]
+name = "step_10_tiny_mlp"
+version = "0.1.0"
+edition = "2021"
+description = "Step 10: Train a Real Net (The Tiny MLP)"
+
+[dependencies]
+rand = "0.8"
+
+[profile.release]
+opt-level = 3

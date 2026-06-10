@@ -14,7 +14,7 @@
 ///   for Position 0, Position 1, Position 2, etc. Then, we simply ADD this position coordinate
 ///   directly to our word coordinate!
 ///
-/// Middle School Math Connection:
+/// Basic Mathematics Connection:
 ///   Sine (sin) and Cosine (cos) are mathematical functions that describe wave patterns,
 ///   like a pendulum swinging or a wave in the ocean. The output of sine and cosine is always
 ///   a number between -1.0 and 1.0. By using waves of different speeds (frequencies), we get

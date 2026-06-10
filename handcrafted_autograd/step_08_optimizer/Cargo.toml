@@ -1,0 +1,11 @@
+[package]
+name = "step_08_optimizer"
+version = "0.1.0"
+edition = "2021"
+description = "Step 8: Building Adam (The Optimizer)"
+
+[dependencies]
+rand = "0.8"
+
+[profile.release]
+opt-level = 3

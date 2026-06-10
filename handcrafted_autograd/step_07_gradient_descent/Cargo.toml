@@ -1,0 +1,11 @@
+[package]
+name = "step_07_gradient_descent"
+version = "0.1.0"
+edition = "2021"
+description = "Step 7: Walking Downhill By Hand (Gradient Descent)"
+
+[dependencies]
+rand = "0.8"
+
+[profile.release]
+opt-level = 3

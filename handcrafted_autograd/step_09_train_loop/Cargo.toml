@@ -1,0 +1,11 @@
+[package]
+name = "step_09_train_loop"
+version = "0.1.0"
+edition = "2021"
+description = "Step 9: The Tutor (The Training Loop)"
+
+[dependencies]
+rand = "0.8"
+
+[profile.release]
+opt-level = 3

@@ -13,7 +13,7 @@
 ///     2. Key (K): The words advertising themselves: "Here is what I am about!" (e.g., "river" says "I'm about water").
 ///     3. Value (V): The actual content/meaning we extract once we find a match.
 ///
-/// Middle School Math Connection:
+/// Basic Mathematics Connection:
 ///   1. Dot Product: To find out how well a Query matches a Key, we multiply their coordinate numbers
 ///      together and add them up.
 ///        Matching Score = (Q_x * K_x) + (Q_y * K_y)

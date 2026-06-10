@@ -10,7 +10,7 @@ GELU acts like a **dimmer switch** or filter for electrical signals:
 * If the incoming signal is negative (useless noise), it dims it down to exactly `0`.
 * If the incoming signal is positive (important information), it lets it pass through.
 
-## 📐 Middle School Math: Why Non-Linearity Matters
+## 📐 Basic Mathematics: Why Non-Linearity Matters
 If we only used linear math (multiplications and additions), a 100-layer neural network would behave exactly like a 1-layer network.
 By introducing a "kink" or a curve that squishes some values to 0 (non-linearity), we allow the neural network to build complex logic gates, like:
 * *If the word is `"bank"` AND it is next to `"river"`, then turn off the money meaning, and turn on the water meaning.*

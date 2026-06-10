@@ -10,7 +10,7 @@ Imagine a filing cabinet:
 
 We compare the **Query** with all the **Keys** to get a match score. Then we use those scores to blend the **Values** together.
 
-## 📐 Middle School Math: Dot Product & Softmax
+## 📐 Basic Mathematics: Dot Product & Softmax
 To find out if two coordinate arrows point in the same direction, we use the **Dot Product**:
 $$Score = (Q_x \times K_x) + (Q_y \times K_y)$$
 If they point in the same direction, the score is high. If they are perpendicular, the score is 0. If they point in opposite directions, the score is negative.

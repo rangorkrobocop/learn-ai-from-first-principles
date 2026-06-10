@@ -15,7 +15,7 @@
 ///
 ///   By looking at how close coordinates are, the computer learns what words mean!
 ///
-/// Middle School Math Connection:
+/// Basic Mathematics Connection:
 ///   To find the distance between two points on a map, we use the Pythagorean theorem!
 ///   Distance = SquareRoot( (X2 - X1)² + (Y2 - Y1)² )
 

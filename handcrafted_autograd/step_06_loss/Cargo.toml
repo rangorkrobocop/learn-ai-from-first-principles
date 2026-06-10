@@ -1,0 +1,11 @@
+[package]
+name = "step_06_loss"
+version = "0.1.0"
+edition = "2021"
+description = "Step 6: The Scorecard (Loss)"
+
+[dependencies]
+rand = "0.8"
+
+[profile.release]
+opt-level = 3

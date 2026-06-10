@@ -12,7 +12,7 @@ Now, it's school time! We assemble our complete learning system:
 
 We train for several epochs (study sessions), watch the loss drop, and then ask the model to continue sentences!
 
-## 📐 Middle School Math: Cross-Entropy Loss
+## 📐 Basic Mathematics: Cross-Entropy Loss
 After the model predicts probabilities for each next word (using softmax), we check: *"How much probability did you assign to the correct answer?"*
 * If the model gave 90% to the correct word, the loss is **low** (good!).
 * If the model gave 1% to the correct word, the loss is **high** (bad!).

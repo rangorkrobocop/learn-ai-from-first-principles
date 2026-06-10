@@ -9,7 +9,7 @@ Imagine writing a report on a book. If you do it alone, you might miss things. I
 
 Each detective splits up the word coordinates, does attention in their own room, and then they gather in the meeting room, paste their notes together (concatenation), and write a combined report.
 
-## 📐 Middle School Math: Dividing and Joining Coordinates
+## 📐 Basic Mathematics: Dividing and Joining Coordinates
 If our word coordinates have 4 numbers:
 $$[x_1, x_2, x_3, x_4]$$
 And we have 2 heads (detectives):

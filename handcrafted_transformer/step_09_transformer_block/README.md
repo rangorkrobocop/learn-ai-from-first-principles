@@ -13,7 +13,7 @@ In a car factory, the car moves along a **conveyor belt** through different stat
 
 By linking multiple blocks together (stacking them), the model gets smarter and smarter at each station!
 
-## 📐 Middle School Math: Residual Connections
+## 📐 Basic Mathematics: Residual Connections
 The key trick that makes deep networks work is:
 $$\text{output} = x + \text{SubLayer}(x)$$
 Instead of *replacing* the input with the result, we *add* the result to the original. This way:

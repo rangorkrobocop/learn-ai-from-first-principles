@@ -6,7 +6,7 @@ To train an AI, we show it a whole sentence. But when it tries to predict word n
 Imagine reading a murder mystery book. You want to guess the culprit on page 50 using only the clues up to page 50. If you peek at page 100, you cheat!
 A **Causal Mask** is like holding a cardboard screen that slides across the sentence from left to right as the model reads.
 
-## 📐 Middle School Math: Adding Negative Infinity
+## 📐 Basic Mathematics: Adding Negative Infinity
 How do we mathematically force a probability to be $0\%$? 
 We add a huge negative number like $-1,000,000,000$ (negative one billion, standing in for negative infinity $-\infty$) to the scores of all future words.
 

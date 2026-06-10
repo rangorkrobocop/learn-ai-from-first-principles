@@ -1,0 +1,6 @@
+# Rust build artifacts (matches target/ at any depth, incl. each step_* crate)
+target/
+**/*.rs.bk
+
+# macOS
+.DS_Store

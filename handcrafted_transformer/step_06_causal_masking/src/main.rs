@@ -14,7 +14,7 @@
 ///   your hand over the right side of the page and sliding it one word to the right
 ///   at a time.
 ///
-/// Middle School Math Connection:
+/// Basic Mathematics Connection:
 ///   We block future words by adding a HUGE negative number (like negative one billion: -1,000,000,000)
 ///   to their attention scores. When we do the percentage split (softmax), any score that is
 ///   negative infinity gets EXACTLY 0% of the attention.

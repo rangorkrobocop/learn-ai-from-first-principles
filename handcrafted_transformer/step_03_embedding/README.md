@@ -9,7 +9,7 @@ Imagine a map of the world. If you place foods in one country, sports in another
 
 An **Embedding** is a lookup table that converts a word ID into these coordinates.
 
-## 📐 Middle School Math: Pythagorean Theorem
+## 📐 Basic Mathematics: Pythagorean Theorem
 To measure how similar two words are, we find the straight-line distance between their coordinates.
 $$Distance = \sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}$$
 If the distance is small, the words are similar. If it is large, they are different!

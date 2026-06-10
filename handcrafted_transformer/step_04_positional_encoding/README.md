@@ -8,7 +8,7 @@ To keep order, we write **page numbers** or **stickers** directly on the word fl
 
 Instead of adding raw numbers (like 1, 2, 3) which can grow too large and confuse the neural network, we use repeating wave patterns (**sines and cosines**) to assign a unique coordinate sticker between `-1.0` and `1.0` to each position.
 
-## 🌊 Middle School Math: Sine and Cosine Waves
+## 🌊 Basic Mathematics: Sine and Cosine Waves
 Think of a swing going back and forth:
 * At time 0, it is in the middle (0)
 * At time 1, it swings right (1)

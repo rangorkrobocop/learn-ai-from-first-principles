@@ -1,0 +1,8 @@
+[package]
+name = "step_01_value"
+version = "0.1.0"
+edition = "2021"
+description = "Step 1: A Number With a Slope (The Value)"
+
+[profile.release]
+opt-level = 3
